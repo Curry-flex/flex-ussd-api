@@ -1,0 +1,120 @@
+{
+  "1":{
+      "id":230,
+      "menu_level":1,
+      "previous_menu": 1,
+      "text":"CON Choose action to continue\n1. Register\n2. Enter id",
+      "menu_options":[
+	      {
+	         "type":"level",
+	         "response":null,
+	         "next_menu_level":2,
+	         "actions":null
+	      },
+	      
+	        {
+	         "type":"level",
+	         "response":null,
+	         "next_menu_level":3,
+	         "actions":null
+	      }
+      ],
+        "max_selections": 2,
+	    "has_input": false,
+	    "number_of_inputs": 0,
+	    "has_navigation_options": false,
+	    "nav_options_args": 0
+  
+     },
+     
+     
+     "2":{
+       "id":230,
+       "menu_level":2,
+       "previous_menu": 1,
+       "text":"CON Enter Customer Number",
+       "menu_options":[
+        {
+         "type":"level",
+         "response":null,
+         "next_menu_level":4,
+         "actions":"REGISTER_CUSTOMER"    
+         }
+       ],
+        "max_selections": 1,
+	    "has_input": true,
+	    "number_of_inputs": 1,
+	    "has_navigation_options": false,
+	    "nav_options_args": 0
+     
+     },
+     
+     "3":{
+       "id":230,
+       "menu_level":2,
+       "previous_menu": 1,
+       "text":"CON Enter ID",
+       "menu_options":[
+        {
+         "type":"level",
+         "response":null,
+         "next_menu_level":6,
+         "actions":"GET_CUSTOMER_INFO"  
+         }
+       ],
+        "max_selections": 1,
+	    "has_input": true,
+	    "number_of_inputs": 1,
+	    "has_navigation_options": false,
+	    "nav_options_args": 0
+     
+     },
+     
+     "4":{
+       "id":230,
+       "menu_level":2,
+       "previous_menu": 1 ,
+       "text":"CON Enter Password",
+       "menu_options":[
+        {
+         "type":"level",
+         "response":null,
+         "next_menu_level":5,
+         "actions":"REGISTER_CUSTOMER"    
+         }
+       ],
+        "max_selections": 1,
+	    "has_input": true,
+	    "number_of_inputs": 1,
+	    "has_navigation_options": false,
+	    "nav_options_args": 0
+     
+     },
+       "5":{
+       "id":230,
+       "menu_level":2,
+       "previous_menu": 1,
+       "text":"END Congratulation your now registered",
+       
+        "max_selections": 0,
+	    "has_input": false,
+	    "number_of_inputs": 0,
+	    "has_navigation_options": false,
+	    "nav_options_args": 0
+     
+     },
+     
+     "6":{
+       "id":230,
+       "menu_level":2,
+       "previous_menu": 1,
+       "text":"END Customer information",
+       
+        "max_selections": 0,
+	    "has_input": false,
+	    "number_of_inputs": 0,
+	    "has_navigation_options": false,
+	    "nav_options_args": 0
+     
+     }
+}
